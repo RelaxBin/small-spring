@@ -8,9 +8,7 @@ import cn.bugstack.springframework.test.converter.StringToIntegerConverter;
 import org.junit.Test;
 
 /**
- * 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- * 公众号：bugstack虫洞栈
- * Create by 小傅哥(fustack)
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class ApiTest {
 
@@ -38,6 +36,5 @@ public class ApiTest {
         Converter<String, Long> stringToLongConverter = converterFactory.getConverter(Long.class);
         System.out.println("测试结果：" + stringToLongConverter.convert("1234"));
     }
-
 
 }

@@ -1,6 +1,6 @@
 package cn.bugstack.springframework.core.convert;
 
-import com.sun.istack.internal.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * A service interface for type conversion. This is the entry point into the convert system.
@@ -8,9 +8,12 @@ import com.sun.istack.internal.Nullable;
  *
  * 类型转换抽象接口
  *
- * 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- * 公众号：bugstack虫洞栈
- * Create by 小傅哥(fustack)
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public interface ConversionService {
 

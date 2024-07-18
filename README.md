@@ -2,6 +2,15 @@
 
 ![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/HeadDiagram.png?raw=true)
 
+本项目思路和代码来自于开源项目 [DerekYRC/mini-spring](https://github.com/DerekYRC/mini-spring)、[code4craft/tiny-spring](https://github.com/code4craft/tiny-spring) 经过本人学习、扩展、补充，并编写文章总结经验，分享给广大读者，一起学习 Spring 源码。非常感谢开源项目贡献者，读者也可以一起学习，不同视角下的学习经验。
+
+**开源项目及优秀书籍**；
+
+- [DerekYRC/mini-spring](https://github.com/DerekYRC/mini-spring)
+- [code4craft/tiny-spring](https://github.com/code4craft/tiny-spring)
+- [《Spring源码深度解析》](https://item.jd.com/12506664.html)
+- [《精通Spring 4.x —— 企业应用开发实战》](https://item.jd.com/10062905219396.html)
+
 >小傅哥，一线互联网 Java 工程师、架构师，开发过交易、营销类项目，实现过运营、活动类项目，设计过中间件，组织过系统重构，编写过技术专利。不仅从事业务系统的开发工作，也经常做一些字节码插桩类的设计和实现，对架构的设计和落地有丰富的经验。在热衷于Java语言的同时，也喜欢研究中继器、I/O板卡、C#和PHP，是一个技术活跃的折腾者。
 >[:pencil2: 虫洞 · 科技栈，博主](https://bugstack.cn)，[:blue_book: 《重学Java设计模式》图书作者](https://item.jd.com/13218336.html)
 
@@ -24,7 +33,7 @@
     <table>
         <tr>
             <td align=“center">添加微信：fustack</td>
-            <td align=“center">关注公众号：bugstack虫洞栈</td>
+            <td align=“center">关注 </td>
         </tr>
         <tr>
             <td align=“center"><img src="https://bugstack.cn/images/personal/fustack.png" width="128px"></td>
@@ -49,9 +58,7 @@
 
 ## ⛳ **目录**
 
-- 代码仓库：[Github](https://github.com/fuzhengwei/small-spring) | [Gitee](https://gitee.com/fustack/small-spring) | [CodeChina](https://codechina.csdn.net/Yao__Shun__Yu/small-spring)  
 - [学习说明 🍁`(学习套路&源码使用)`](https://github.com/fuzhengwei/small-spring#bookmark-%E5%AD%A6%E4%B9%A0%E8%AF%B4%E6%98%8E)
-- [下电子书](https://github.com/fuzhengwei/small-spring#-pdf-%E4%B8%8B%E8%BD%BD) 📚[《手撸 Spring》 - `新增专属3个章节，代理类属性填充、循环依赖、类型转换`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 - [章节目录](https://github.com/fuzhengwei/small-spring#pencil-%E7%AB%A0%E8%8A%82%E7%9B%AE%E5%BD%95)
 - [我的书籍](https://github.com/fuzhengwei/small-spring#books-%E6%88%91%E7%9A%84%E4%B9%A6%E7%B1%8D)
 - [问题交流](https://github.com/fuzhengwei/small-spring#paw_prints-%E9%97%AE%E9%A2%98%E4%BA%A4%E6%B5%81)
@@ -83,12 +90,6 @@
     | ---- |
     |   ![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/Bean%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png?raw=true)  |
 
-## 📚 PDF 下载
-
-![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/spring-0-04.png?raw=true)
-
-PDF 下载：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
-
 ## :pencil: 章节目录
 
 - [x] [`难度【★☆☆☆☆】第 01 章：开篇介绍，我要带你撸 Spring 啦！`](https://mp.weixin.qq.com/s/g7YdIe_FSrk-WE8nQRO3TA) 
@@ -106,9 +107,6 @@ PDF 下载：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https:/
 - [x] [`难度【★★★★★】第 13 章：行云流水，把AOP动态代理，融入到Bean的生命周期`](https://mp.weixin.qq.com/s/BFYJLNzVO8NxjmeCUzmLyg)
 - [x] [`难度【★★★☆☆】第 14 章：笑傲江湖，通过注解配置和包自动扫描的方式完成Bean对象的注册`](https://mp.weixin.qq.com/s/1BWMc9sYUB9-uz2w7TZWmw)
 - [x] [`难度【★★★☆☆】第 15 章：万人之敌，通过注解给属性注入配置和Bean对象`](https://mp.weixin.qq.com/s/GNLA10AimmxUSZ0VoDI_xA)
-- [x] [`难度【★★★☆☆】【PDF专属】第 16 章：战无不胜，给代理对象的属性设置值`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
-- [x] [`难度【★★★★★】【PDF专属】第 17 章：攻无不克，通过三级缓存解决循环依赖`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
-- [x] [`难度【★★★★☆】【PDF专属】第 18 章：挂印封刀，数据类型转换工厂设计实现`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 
 ## :books: 我的书籍
 

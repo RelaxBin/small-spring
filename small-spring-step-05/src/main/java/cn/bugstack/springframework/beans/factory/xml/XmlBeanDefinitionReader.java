@@ -20,9 +20,12 @@ import java.io.InputStream;
 /**
  * Bean definition reader for XML bean definitions.
  *
- * 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- * 公众号：bugstack虫洞栈
- * Create by 小傅哥(fustack)
+ *
+ *
+ *
+ *
+ *
+ * 作者：DerekYRC https://github.com/DerekYRC/mini-spring
  */
 public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
@@ -36,10 +39,8 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader {
 
     @Override
     public void loadBeanDefinitions(Resource resource) throws BeansException {
-        try {
-            try (InputStream inputStream = resource.getInputStream()) {
-                doLoadBeanDefinitions(inputStream);
-            }
+        try (InputStream inputStream = resource.getInputStream()){
+            doLoadBeanDefinitions(inputStream);
         } catch (IOException | ClassNotFoundException e) {
             throw new BeansException("IOException parsing XML document from " + resource, e);
         }
